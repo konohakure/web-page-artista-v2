@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3174&resolucion=3840x2160");
+}
+
+.item1{
+    grid-area: Popexperience;
+}
+
+.item2{
+    grid-area: inicio;
+    background-color: #F08954;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.item3{
+    grid-area: musica;
+    background-color: #F08954;
+    border-radius: 20px;
+    margin: 5px;
+}
+.item4{
+    grid-area: manga;
+    background-color: #F08954;
+    border-radius: 20px;
+    margin: 5px;
+}
+.item5{
+    grid-area: videojuegos;
+    background-color: #F08954;
+    border-radius: 20px;
+    margin: 5px;
+}
+.item6{
+    grid-area: cine;
+    background-color: #F08954;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-areas:
+    'Popexperience Popexperience Popexperience Popexperience Popexperience Popexperience'
+    'inicio inicio musica manga videojuegos cine'
+    ;
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/images1/1080P-Cool-3D-Images.jpg");
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.grid-layout > div {
+    text-align: center;
+    padding: 20px 0;
+    font-family: cursive;
+    font-size: 15px;
+}
+.grid-layout > div > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+}
+/* aqui empieza el cuerpo de la pagina */
+
+.item-7 {
+   grid-area: noticias;
+   background-color: #F08954;
+   border-radius: 20px;
+}  
+.item-8{
+    grid-area: musicai;
+    background-image: url("https://images5.alphacoders.com/609/thumb-1920-609249.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 250px;
+}
+.item-9{
+    grid-area: animei;
+    background-image: url("https://fondosmil.com/fondo/78400.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 250px;
+}
+.item-10{
+    grid-area: videoji;
+    background-image: url("https://fondosmil.com/fondo/4528.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 250px;
+}
+.item-11{
+    grid-area: cinei;
+    background-image: url("https://i.pinimg.com/originals/56/4e/f9/564ef9abd66bae9b88f5a55517edfe88.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 250px;
+    
+}
+
+.grid-layout-cuerpoi {
+    display: grid;
+    grid-template-areas: 
+    'noticias noticias noticias noticias noticias noticias'
+    'musicai musicai musicai animei animei animei'
+    'videoji videoji videoji cinei cinei cinei'
+    ;
+    gap: 10px;
+    background-image: url("images/halo_infinite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    
+}
+
+.grid-layout-cuerpoi > div {
+    text-align: center;
+    margin: 10px;
+}
+
+
